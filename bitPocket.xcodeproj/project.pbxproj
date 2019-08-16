@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0241D784DBFA40A1EC08626 /* Pods_bitPocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AF8D1151B854EFAA38E1CB /* Pods_bitPocket.framework */; };
 		C46888B12306F2E70010FC0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46888B02306F2E70010FC0A /* AppDelegate.swift */; };
 		C46888B32306F2E70010FC0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46888B22306F2E70010FC0A /* ViewController.swift */; };
 		C46888B62306F2E70010FC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46888B42306F2E70010FC0A /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00AF8D1151B854EFAA38E1CB /* Pods_bitPocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bitPocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46888AD2306F2E70010FC0A /* bitPocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitPocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46888B02306F2E70010FC0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C46888B22306F2E70010FC0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		C46888B72306F2E80010FC0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C46888BA2306F2E80010FC0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C46888BC2306F2E80010FC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D57D0DBEEBE0F412F12B5990 /* Pods-bitPocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitPocket.release.xcconfig"; path = "Target Support Files/Pods-bitPocket/Pods-bitPocket.release.xcconfig"; sourceTree = "<group>"; };
+		FB73C2C2A7D6B50F452000EA /* Pods-bitPocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitPocket.debug.xcconfig"; path = "Target Support Files/Pods-bitPocket/Pods-bitPocket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0241D784DBFA40A1EC08626 /* Pods_bitPocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		583AAC562D0F90B94C5D30B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB73C2C2A7D6B50F452000EA /* Pods-bitPocket.debug.xcconfig */,
+				D57D0DBEEBE0F412F12B5990 /* Pods-bitPocket.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		648D59D5ED65F2AAF8185647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00AF8D1151B854EFAA38E1CB /* Pods_bitPocket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C46888A42306F2E70010FC0A = {
 			isa = PBXGroup;
 			children = (
 				C46888AF2306F2E70010FC0A /* bitPocket */,
 				C46888AE2306F2E70010FC0A /* Products */,
+				583AAC562D0F90B94C5D30B7 /* Pods */,
+				648D59D5ED65F2AAF8185647 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C46888BF2306F2E80010FC0A /* Build configuration list for PBXNativeTarget "bitPocket" */;
 			buildPhases = (
+				DBD5247A10F034638E204529 /* [CP] Check Pods Manifest.lock */,
 				C46888A92306F2E70010FC0A /* Sources */,
 				C46888AA2306F2E70010FC0A /* Frameworks */,
 				C46888AB2306F2E70010FC0A /* Resources */,
+				539ED1800610495C55F38443 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		539ED1800610495C55F38443 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bitPocket/Pods-bitPocket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bitPocket/Pods-bitPocket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bitPocket/Pods-bitPocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD5247A10F034638E204529 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bitPocket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C46888A92306F2E70010FC0A /* Sources */ = {
@@ -280,6 +349,7 @@
 		};
 		C46888C02306F2E80010FC0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB73C2C2A7D6B50F452000EA /* Pods-bitPocket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +368,7 @@
 		};
 		C46888C12306F2E80010FC0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57D0DBEEBE0F412F12B5990 /* Pods-bitPocket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

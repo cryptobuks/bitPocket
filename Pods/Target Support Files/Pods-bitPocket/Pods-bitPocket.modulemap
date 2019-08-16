@@ -1,0 +1,6 @@
+framework module Pods_bitPocket {
+  umbrella header "Pods-bitPocket-umbrella.h"
+
+  export *
+  module * { export * }
+}
