@@ -6,6 +6,6 @@ target 'bitPocket' do
   use_frameworks!
 
   # Pods for bitPocket
-  pod 'TrustWalletCore'
+  pod 'BitcoinKit'
 
 end

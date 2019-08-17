@@ -1,20 +1,16 @@
 PODS:
-  - SwiftProtobuf (1.5.0)
-  - TrustWalletCore (0.12.11):
-    - SwiftProtobuf (~> 1.5.0)
+  - BitcoinKit (1.0.2)
 
 DEPENDENCIES:
-  - TrustWalletCore
+  - BitcoinKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - SwiftProtobuf
-    - TrustWalletCore
+    - BitcoinKit
 
 SPEC CHECKSUMS:
-  SwiftProtobuf: 241400280f912735c1e1b9fe675fdd2c6c4d42e2
-  TrustWalletCore: 394ad76dd47b7389b07014b0ec8ebc9e85901abf
+  BitcoinKit: 5502c14d72ab665fbe00dc72abd74439a38ef9bc
 
-PODFILE CHECKSUM: ae19ed7b1072b5053800293d7b452f0cdf4cb266
+PODFILE CHECKSUM: 47f4efb6ac6075b9a51a9e4d13e273b7a58b1706
 
 COCOAPODS: 1.7.3

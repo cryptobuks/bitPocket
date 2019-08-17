@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		C46888B62306F2E70010FC0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46888B42306F2E70010FC0A /* Main.storyboard */; };
 		C46888B82306F2E80010FC0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46888B72306F2E80010FC0A /* Assets.xcassets */; };
 		C46888BB2306F2E80010FC0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46888B92306F2E80010FC0A /* LaunchScreen.storyboard */; };
+		C46888C32306F3F30010FC0A /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46888C22306F3F30010FC0A /* Core.swift */; };
+		C46888C52306F43F0010FC0A /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46888C42306F43F0010FC0A /* PasswordGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		C46888B72306F2E80010FC0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C46888BA2306F2E80010FC0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C46888BC2306F2E80010FC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C46888C22306F3F30010FC0A /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		C46888C42306F43F0010FC0A /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
+		C46888C62307056D0010FC0A /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D57D0DBEEBE0F412F12B5990 /* Pods-bitPocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitPocket.release.xcconfig"; path = "Target Support Files/Pods-bitPocket/Pods-bitPocket.release.xcconfig"; sourceTree = "<group>"; };
 		FB73C2C2A7D6B50F452000EA /* Pods-bitPocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitPocket.debug.xcconfig"; path = "Target Support Files/Pods-bitPocket/Pods-bitPocket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,7 +51,6 @@
 				FB73C2C2A7D6B50F452000EA /* Pods-bitPocket.debug.xcconfig */,
 				D57D0DBEEBE0F412F12B5990 /* Pods-bitPocket.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,6 +89,9 @@
 				C46888B72306F2E80010FC0A /* Assets.xcassets */,
 				C46888B92306F2E80010FC0A /* LaunchScreen.storyboard */,
 				C46888BC2306F2E80010FC0A /* Info.plist */,
+				C46888C22306F3F30010FC0A /* Core.swift */,
+				C46888C62307056D0010FC0A /* MyPlayground.playground */,
+				C46888C42306F43F0010FC0A /* PasswordGenerator.swift */,
 			);
 			path = bitPocket;
 			sourceTree = "<group>";
@@ -204,6 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46888C52306F43F0010FC0A /* PasswordGenerator.swift in Sources */,
+				C46888C32306F3F30010FC0A /* Core.swift in Sources */,
 				C46888B32306F2E70010FC0A /* ViewController.swift in Sources */,
 				C46888B12306F2E70010FC0A /* AppDelegate.swift in Sources */,
 			);
