@@ -7,5 +7,7 @@ target 'bitPocket' do
 
   # Pods for bitPocket
   pod 'BitcoinKit'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
 
 end
